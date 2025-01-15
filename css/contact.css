@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #485152;
+    color: #333;
+}
+strong{color: aliceblue;}
+.quest{color: #D3D9D4;}
+.contact-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #262740;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h1, .contact-section h2 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.contact-section p {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contact-info a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.map-section iframe {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: none;
+}
+.header {
+    background-color: #124E66;
+    color: #D3D9D4;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo h1 {
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.navigation ul li {
+    margin: 0 15px;
+}
+
+.navigation ul li a {
+    color: #D3D9D4;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navigation ul li a:hover {
+    color: #748D92;
+}
+.rounded-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
